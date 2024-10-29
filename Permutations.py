@@ -8,15 +8,15 @@ def factorial(number):
 
 
 print("THIS IS FOR PERMUATTIONS")
-numberOfPeople = int(input("please Input The N Value:"))
-numberOfPrizes = int(input("please Input The R Value:"))
+n = int(input("please Input The N Value:"))
+r = int(input("please Input The R Value:"))
 
 
-numberOfPeopleFactorial = factorial(numberOfPeople)
+nFactorial = factorial(numberOfPeople)
 
-differenceFacorial = factorial((numberOfPeople-numberOfPrizes))
+differenceFacorial = factorial((n - r))
 
 
-formula = int(numberOfPeopleFactorial)/int(differenceFacorial)
+result = int(nFactorial) / int(differenceFacorial)
 
-print(formula)
+print(result)
